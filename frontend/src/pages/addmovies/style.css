@@ -1,0 +1,9 @@
+.container {
+  width: 400px;
+}
+.signupbox {
+  margin-top: "50px";
+  display: "flex";
+  justify-content: "center";
+  max-width: "500px";
+}

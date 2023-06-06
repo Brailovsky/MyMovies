@@ -1,0 +1,142 @@
+.paddingTB60 {
+  padding: 60px 0px 60px 0px;
+  margin: 0 auto;
+}
+
+.about-title h1 {
+  color: #535353;
+  font-size: 45px;
+  font-weight: 600;
+}
+.about-title span {
+  color: orange;
+  font-size: 45px;
+  font-weight: 700;
+}
+.about-title h3 {
+  color: #535353;
+  font-size: 23px;
+  margin-bottom: 24px;
+}
+.about-title p {
+  color: #7a7a7a;
+  line-height: 1.8;
+  margin: 0 0 15px;
+}
+.about-paddingB {
+  padding-bottom: 12px;
+}
+.about-img {
+  padding-left: 57px;
+}
+
+.avater {
+  width: 50px;
+  height: 50px;
+  border-radius: 70%;
+}
+.search img {
+  height: 30px;
+}
+
+.admin-card {
+  width: 160px;
+  height: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  background-color: orange;
+  color: white;
+}
+.footer {
+  background-color: "#FFA500";
+}
+
+.footer-style {
+  position: relative;
+  width: 100%;
+  bottom: -20px;
+}
+.card-title {
+  text-decoration: none;
+  color: black;
+}
+
+.registration-form {
+  padding: 50px 0;
+}
+
+.registration-form form {
+  background-color: #fff;
+  max-width: 600px;
+  margin: auto;
+  padding: 50px 70px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .item {
+  border-radius: 20px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+}
+
+.registration-form .create-account {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #5791ff;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+/* Home Page */
+.home__search {
+  padding: 10px;
+  background-color: #ffd580;
+  border-radius: 10px;
+  color: white;
+}
+.home__site__title {
+  background: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home__site__text {
+  display: block;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.home__main__wrapper {
+  /* 
+ style={{
+            backgroundColor: "orange",
+            padding: "20px",
+            borderRadius: "20px",
+            marginTop: "20px",
+          }}
+
+
+*/
+
+  background-color: #ffd580;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.home__title__grad {
+  color: white;
+  text-shadow: black 2px 3px 2px;
+}
+
+@media (max-width: 576px) {
+  .registration-form form {
+    padding: 50px 20px;
+  }
+}
